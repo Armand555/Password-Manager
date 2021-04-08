@@ -23,7 +23,7 @@ echoheader();
    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header pull-left">
-          <a class="navbar-brand" href="#"><img src="./logo.png" id="logo" width="200"></a>
+          <a class="navbar-brand" href="#"><img src="./logo.png" id="logo" width="80"></a>
         </div>
         <div class="navbar-header pull-right">
           <div class="pull-left">
