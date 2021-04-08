@@ -21,7 +21,7 @@ $DB_PASSWORD = '';
 //Note: It must start with https://
 //This is to prevent cross-site attacks. If $HOSTDOMAIN is not the prefix of HTTP_REFERER string,
 //an exception will be raised.
-$HOSTDOMAIN = 'http://localhost/';
+$HOSTDOMAIN = 'https://localhost';
 
 //Default timezone
 date_default_timezone_set('America/Los_Angeles');
