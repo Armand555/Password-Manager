@@ -471,11 +471,11 @@ fieldset[disabled] .btn-danger.active {
   background-repeat: repeat-x;
 }
 .progress-bar-info {
-  background-image: -webkit-linear-gradient(top, #129500 0%, #40FF26 100%);
-  background-image:      -o-linear-gradient(top, #129500 0%, #40FF26 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#129500), to(#40FF26));
-  background-image:         linear-gradient(to bottom, #129500 0%, #40FF26 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff129500', endColorstr='#ff40FF26', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #129500 0%, #129500 100%);
+  background-image:      -o-linear-gradient(top, #129500 0%, #129500 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#129500), to(#129500));
+  background-image:         linear-gradient(to bottom, #129500 0%, #129500 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff129500', endColorstr='#ff129500', GradientType=0);
   background-repeat: repeat-x;
 }
 .progress-bar-warning {

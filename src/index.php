@@ -40,10 +40,10 @@ echoheader();
         <button id="signup" class="btn btn-sm btn-default collapse" type="button">Sign Up</button>&nbsp;
         <button id="recover" class="btn btn-sm btn-warning" type="button">Password Recovery</button>
     <hr />
-    <div>
+    <!-- <div>
         Version <span id="version"></span>
         (<a href="https://github.com/zeruniverse/Password-Manager/releases">DOWNLOAD</a>)
-    </div>
+    </div> -->
     <div class="modal" tabindex="-1" role="dialog" id="usepin">
         <div class="modal-dialog">
             <div class="modal-content">
