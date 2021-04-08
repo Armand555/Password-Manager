@@ -4,15 +4,15 @@
 //PLEASE SPECIFY THE VARIABLES BELOW
 //****************************************
 
-$DB_HOST = '';
+$DB_HOST = 'localhost';
 //Make sure MySQL is running at default port 3306. Or you have to edit common.php
 //If you use localhost, make sure you have localhost defined in /etc/hosts
 
 //The database name for password_manager
-$DB_NAME = '';
+$DB_NAME = 'p2663268_passwords';
 
 //Database Username
-$DB_USER = '';
+$DB_USER = 'root';
 
 //Database Password
 $DB_PASSWORD = '';
@@ -21,7 +21,7 @@ $DB_PASSWORD = '';
 //Note: It must start with https://
 //This is to prevent cross-site attacks. If $HOSTDOMAIN is not the prefix of HTTP_REFERER string,
 //an exception will be raised.
-$HOSTDOMAIN = 'https://password-manager.example.com/';
+$HOSTDOMAIN = 'http://localhost/';
 
 //Default timezone
 date_default_timezone_set('America/Los_Angeles');
